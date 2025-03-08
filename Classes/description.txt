@@ -1,0 +1,41 @@
+Because you're a Ninja!
+
+And as every ninja worthy of being one you have advanced movement skills, incredibly fast reflexes and you recover a lot better. 
+
+[b]FERATURES[/b]
+- NINJA GOAT: You are a Ninja.
+
+[b]COMMANDS[/b]
+- [b]In air + Ragdoll + [Ragdoll Key]:[/b] Stand up (stop ragdoll).
+- [b]2x[Direction Key]:[/b] Dash in this direction.
+- [b][CapsLock]:[/b] Toggle on/off ninja reflexes.
+
+[b]CHARACTERISTICS[/b]
+- You can hit surfaces with a very high speed without ragdolling.
+- You can do infinite wallrun horizontally.
+- After a vertical wallrun you will not fall, you will keep your position on the wall as long as you run.
+- When ninja reflexes are active, you are 4 times faster.
+
+[b]EASTER EGGS[/b]
+- [spoiler]Using ninja reflexes in slowmotion gives you normal speed when everything else is slow.[/spoiler]
+- [spoiler]When your reached the top of the vertical wallrun move, you can walljump and dash forward to go higher.[/spoiler]
+- [spoiler]In slowmotion, you can use dash in chain to travel really far away without losing height.[/spoiler]
+
+[b]KNOWN BUGS[/b]
+- You can't stick to a wall when falling.
+
+[b]FAQ[/b]
+- How do I use this mod?
+[i]First hit the [+ Subscribe] button on this page to download the mod. Then in the main menu of the game, select Custom Game, then you will see a list of all the mutators installed on your computer (If you don't see my mod in the list, just wait and come back later, it may take some time to download). Click on the mutators you want in this list to add them to your goat.[/i]
+
+- The mod is installed but does nothing when I use it, what should I do?
+[i]Unsubscribe to the mod, open the file "C:\ Program Files (x86) \Steam \SteamApps \common \GoatSimulator \GoatGame \Config \GoatMod.ini" (or "GoatMod") with notepad and delete its content, then resubscribe and see if that fixed the problem.[/i]
+
+- My game is crashing at startup, what do I do?
+[i]Try to follow [url=http://steamcommunity.com/sharedfiles/filedetails/?id=247411111]this guide[/url] and see if it fixed your problem. If not, I don't think I can do anything more sorry.[/i]
+
+[b]DEV NOTES[/b]
+[quote=About this mod] As some people may notice, what I tried to reproduce here are the ninja abilities given by the ninja equipments in Terraria ^^
+Nothing too hard to code this time: the dash simply makes you really fast for a split second. The air-unragdoll is a custom StandUp() function without some checks that forced the player to be on the floor to unragdoll. The infinite wallrun is made by making your vertical movement only positive or null when you wallrun.
+The only thing that I was not able to implement is the ability to stick to walls, for some reasons you can't start to wallrun when falling and that makes things a bit complicated...
+[/quote]
